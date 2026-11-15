@@ -5,9 +5,10 @@
   const cfg = window.DOCROT_YOUTUBE || {};
   const fmt = (n) => new Intl.NumberFormat('en-US', {notation:'compact', maximumFractionDigits: 1}).format(Number(n)||0);
   const number = (n) => new Intl.NumberFormat('en-US').format(Number(n)||0);
-  const date = (s) => s ? new Intl.DateTimeFormat('en', {month:'short', day:'numeric', year:'numeric'}).format(new Date(s)) : '';
+  const date = (s) => Number.isFinite(Date.parse(s)) ? new Intl.DateTimeFormat('en', {month:'short', day:'numeric', year:'numeric'}).format(new Date(s)) : '';
   const YOUTUBE = 'https://www.youtube.com/@thedocrot';
-  const CACHE_KEY = 'thedocrot:youtube:cache:v2';
+  let client, adaptFeed, lastView=null, unsubscribe;
+  const observed = value => Number.isFinite(Date.parse(value)) ? new Date(value).toLocaleString([], {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}) : 'time unavailable';
   let allVideos = [], currentFilter='all', refreshInProgress=false;
 
   // Accessible mobile menu
@@ -85,7 +86,7 @@
   function renderVideos(videos){
     const target=$('#video-grid');if(!target)return;
     const list=videos.filter(v=>currentFilter==='all'||category(v.snippet?.title)===currentFilter).slice(0,Number(cfg.latestCount)||6);
-    if(!list.length){videoFallback(target,'video',videos.length?'No recent videos in this category. Try Everything.':'Connect your restricted API key to display live YouTube results.');return;}
+    if(!list.length){videoFallback(target,'video',videos.length?'No recent videos in this category. Try Everything.':'No recent uploads are available in the shared feed. Visit the channel for more videos.');return;}
     target.replaceChildren(...list.map(v=>videoCard(v)));
   }
   function renderStreams(videos){
@@ -95,10 +96,11 @@
   }
   function renderStats(channel){
     const stats=channel?.statistics||{};
-    const hasSubs=!stats.hiddenSubscriberCount && stats.subscriberCount!=null;
-    $('#stat-subs').textContent=hasSubs?number(stats.subscriberCount):'Hidden';
-    $('#stat-views').textContent=stats.viewCount!=null?fmt(stats.viewCount):'—';
-    $('#stat-videos').textContent=stats.videoCount!=null?number(stats.videoCount):'—';
+    const hasCount=value=>value!==null && value!==undefined && String(value).trim()!=='' && Number.isFinite(Number(value)) && Number(value)>=0;
+    const hasSubs=!stats.hiddenSubscriberCount && hasCount(stats.subscriberCount);
+    $('#stat-subs').textContent=hasSubs?number(stats.subscriberCount):stats.hiddenSubscriberCount?'Hidden':'—';
+    $('#stat-views').textContent=hasCount(stats.viewCount)?fmt(stats.viewCount):'—';
+    $('#stat-videos').textContent=hasCount(stats.videoCount)?number(stats.videoCount):'—';
     if(hasSubs){
       const subs=Number(stats.subscriberCount);const step=subs<1000?100:subs<10000?500:1000;
       const next=(Math.floor(subs/step)+1)*step;const prev=next-step;
@@ -106,89 +108,63 @@
       $('#stat-goal').textContent=number(next);$('#goal-progress').style.width=`${percent}%`;
       $('#goal-track').setAttribute('aria-valuenow',String(Math.round(percent)));
       $('#goal-note').textContent=`${number(next-subs)} to go · ${Math.round(percent)}% through this step`;
-    } else {$('#stat-goal').textContent='—';$('#goal-note').textContent='Subscriber count not public';}
+    } else {$('#stat-goal').textContent='—';$('#goal-progress').style.width='0%';$('#goal-track').setAttribute('aria-valuenow','0');$('#goal-note').textContent=stats.hiddenSubscriberCount?'Subscriber count not public':'Subscriber count unavailable';}
   }
-  function renderLive(live, searched=true){
-    const spotlight=$('#live-spotlight');const head=$('#live-headline'), detail=$('#live-detail'), state=$('#live-state'), link=$('#live-link');
+  function renderLive(live, checkedAt) {
+    const spotlight=$('#live-spotlight'), head=$('#live-headline'), detail=$('#live-detail'), state=$('#live-state'), link=$('#live-link');
     spotlight.classList.toggle('is-live',Boolean(live));
-    if(live){state.textContent='● LIVE NOW';head.textContent=live.snippet?.title || 'The Docrot is streaming now!';detail.textContent='YouTube reports an active broadcast. Click to join the stream.';link.textContent='Watch live ↗';link.href=`https://www.youtube.com/watch?v=${encodeURIComponent(live.id)}`;}
-    else if(searched){state.textContent='NO LIVE BROADCAST DETECTED';head.textContent='Catch the next stream';detail.textContent='No active public livestream was found during the latest YouTube check. Watch recent videos or visit the channel to confirm.';link.textContent='View channel live page ↗';link.href=YOUTUBE+'/live';}
-    else{state.textContent='LIVE STATUS UNAVAILABLE';head.textContent='Check the channel for the next stream';detail.textContent='Automatic live detection is unavailable. You can still visit the live tab on YouTube.';link.textContent='Check on YouTube ↗';link.href=YOUTUBE+'/live';}
+    if(live){state.textContent='● OBSERVED LIVE';head.textContent=live.snippet?.title || 'Thedocrot live broadcast';detail.textContent='Reported live '+observed(checkedAt)+'. Status can change between updates.';link.textContent='Watch live ↗';link.href='https://www.youtube.com/watch?v='+encodeURIComponent(live.id);}
+    else {state.textContent='LIVE STATUS UNKNOWN';head.textContent='Check the channel for live action';detail.textContent='No current broadcast can be confirmed from the latest saved observation'+(checkedAt?' ('+observed(checkedAt)+')':'')+'. Check YouTube for the latest status.';link.textContent='Check on YouTube ↗';link.href=YOUTUBE+'/live';}
   }
   function showToast(msg){const e=$('#toast');if(!e)return;e.textContent=msg;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),4400);}
-  async function yt(endpoint, params){
-    const q=new URLSearchParams({...params,key:cfg.apiKey});
-    const response=await fetch(`https://www.googleapis.com/youtube/v3/${endpoint}?${q}`,{cache:'no-store'});
-    let data;try{data=await response.json();}catch{throw Error(`YouTube returned HTTP ${response.status}`);}
-    if(!response.ok){throw Error(data?.error?.message||`YouTube error ${response.status}`);}
-    return data;
+  function showData(result){
+    const view=adaptFeed(result.data,cfg.channelId);
+    // Refresh only data-driven elements; card, navigation and current filter stay intact.
+    const signature=JSON.stringify(view);
+    if(signature!==lastView){
+      renderStats(view.channel);allVideos=view.uploads;renderVideos(allVideos);renderStreams(view.replays);lastView=signature;
+    }
+    // Restore the spotlight after a transient rendering/module error even when data is unchanged.
+    renderLive(view.live,view.observedAt);
+    const notes=['Public YouTube data · Updated '+observed(view.updatedAt)];
+    if(view.statsAt!==view.updatedAt)notes.push('Stats observed '+observed(view.statsAt));
+    if(view.videosAt!==view.updatedAt)notes.push('Videos observed '+observed(view.videosAt));
+    if(result.source==='fallback'||view.incomplete)notes.push('Showing saved results; refresh incomplete');
+    if(Date.now()-Date.parse(view.updatedAt)>45*60000)notes.push('Feed may be delayed');
+    if(view.limited)notes.push('Filters cover the currently available uploads');
+    $('#data-note').textContent=notes.join(' · ');
   }
-  function getCache(){try {const obj=JSON.parse(localStorage.getItem(CACHE_KEY)||'null');return obj&&obj.timestamp?obj:null;}catch{return null;}}
-  function setCache(data){try{localStorage.setItem(CACHE_KEY,JSON.stringify({...data,timestamp:Date.now()}));}catch{}}
-  function showData(data, isCached=false){
-    if(data.channel)renderStats(data.channel);
-    allVideos=data.uploads||[];renderVideos(allVideos);
-    renderStreams(data.replays||[]);
-    renderLive(data.live||null,data.liveChecked!==false);
-    const when = data.timestamp ? new Date(data.timestamp).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : 'just now';
-    $('#data-note').textContent=`Public YouTube data · ${isCached?'Cached':'Checked'} ${when}`;
+  function unavailable(){
+    renderLive(null);
+    $('#data-note').textContent='Feed unavailable · You can still visit the YouTube channel';
+    if(!lastView){renderStats(null);videoFallback($('#video-grid'),'video','The shared feed could not load. Try Refresh or visit YouTube.');videoFallback($('#stream-grid'),'stream','Stream replays are temporarily unavailable here. The YouTube archive is still available.');}
   }
-  async function loadYouTube(force=false){
+  async function loadYouTube(){
     if(refreshInProgress)return;
-    const refresh=$('#refresh-feed');
-    const key=String(cfg.apiKey||'');
-    if(!key || key.includes('PASTE_YOUR_')){ $('#data-note').textContent='Add a restricted YouTube API key to activate stats';renderLive(null,false);if(force)showToast('Add your API key in js/youtube-config.js first.');return; }
-    const cached=getCache();const cacheMins=Number(cfg.cacheMinutes)||45;
-    if(!force&&cached&&(Date.now()-cached.timestamp)<cacheMins*60*1000){showData(cached,true);return;}
-    refreshInProgress=true;if(refresh)refresh.disabled=true;
-    $('#data-note').textContent='Checking YouTube…';
-    try{
-      const chData=await yt('channels',{part:'snippet,statistics,contentDetails',forHandle:cfg.channelHandle||'@thedocrot'});
-      const channel=chData.items?.[0];if(!channel)throw Error('The channel was not found. Check the handle.');
-      const uploadPlaylist=channel.contentDetails?.relatedPlaylists?.uploads;
-      let pageToken='', ids=[];
-      if(uploadPlaylist){
-        for(let p=0;p<3;p++){
-          const args={part:'contentDetails',playlistId:uploadPlaylist,maxResults:'50'};
-          if(pageToken)args.pageToken=pageToken;
-          const result=await yt('playlistItems',args);
-          ids.push(...(result.items||[]).map(x=>x.contentDetails?.videoId).filter(Boolean));
-          pageToken=result.nextPageToken||'';if(!pageToken)break;
-        }
-      }
-      // Low-cost endpoints for uploads, stats, replay classification.
-      let videos=[];
-      for(let i=0;i<ids.length;i+=50){const chunk=ids.slice(i,i+50);if(!chunk.length)continue;
-        const result=await yt('videos',{part:'snippet,statistics,liveStreamingDetails',id:chunk.join(',')});
-        videos.push(...(result.items||[]));
-      }
-      const byId=new Map(videos.map(v=>[v.id,v]));
-      videos=ids.map(id=>byId.get(id)).filter(Boolean);
-      const uploads=videos.filter(v=>v.snippet?.liveBroadcastContent!=='upcoming').slice(0,60);
-      const replays=videos.filter(v=>v.liveStreamingDetails?.actualEndTime)
-        .sort((a,b)=>new Date(b.liveStreamingDetails.actualStartTime||b.snippet?.publishedAt)-new Date(a.liveStreamingDetails.actualStartTime||a.snippet?.publishedAt));
-      let live=null,liveChecked=false;
-      if(cfg.checkLive!==false){
-        try {
-          const liveSearch=await yt('search',{part:'snippet',channelId:channel.id,type:'video',eventType:'live',maxResults:'1'});
-          liveChecked=true;
-          const l=liveSearch.items?.[0];if(l?.id?.videoId)live={id:l.id.videoId,snippet:l.snippet};
-        }catch(error){ console.warn('Could not check live status:',error.message); }
-      }
-      // Reuse upload metadata for active live fallback if search bucket is exhausted.
-      if(!live){const candidate=videos.find(v=>v.snippet?.liveBroadcastContent==='live' && !v.liveStreamingDetails?.actualEndTime);if(candidate)live=candidate;}
-      const data={channel,uploads,replays,live,liveChecked};setCache(data);showData({...data,timestamp:Date.now()});
-      if(force)showToast('Updated from YouTube.');
-    }catch(error){
-      console.error('YouTube API:',error);
-      const cached=getCache();if(cached){showData(cached,true);showToast(`Couldn't refresh. Showing cached results.`);} else {
-        $('#data-note').textContent='YouTube could not be loaded · Check Console';
-        renderLive(null,false);
-        videoFallback($('#video-grid'),'video','The live API request failed. Open the channel or check the browser Console.');
-        showToast('YouTube API error: '+error.message);
-      }
-    }finally{refreshInProgress=false;if(refresh)refresh.disabled=false;}
+    const refresh=$('#refresh-feed');refreshInProgress=true;refresh.disabled=true;
+    try {
+      if(!client)throw Error('Feed client unavailable');
+      const result=await client.get(cfg.slug,{force:true});showData(result);
+      showToast(result.source==='fallback'?'Could not refresh. Showing saved results.':'Checked the shared feed. Updates are published periodically.');
+    }catch{unavailable();showToast('The feed is unavailable. Please try again later.');}
+    finally{refreshInProgress=false;refresh.disabled=false;}
   }
-  $('#refresh-feed')?.addEventListener('click',()=>loadYouTube(true));
-  loadYouTube();
+  $('#refresh-feed')?.addEventListener('click',loadYouTube);
+  $('#data-note').textContent='Loading public channel data…';
+  // Keep local interactions available even if a feed module fails to load.
+  Promise.all([import('./creatorpromote-hub.js'),import('./hub-adapter.mjs')]).then(([hub,adapter])=>{
+    adaptFeed=adapter.adaptFeed;
+    const checkedFetch=async(...args)=>{
+      const response=await fetch(...args);
+      if(!response.ok)return response;
+      const payload=await response.json();
+      if(payload.channel?.id!==cfg.channelId)throw Error('Unexpected creator');
+      return {ok:true,json:async()=>payload};
+    };
+    client=hub.createHubClient({baseUrl:cfg.hubUrl,fetcher:checkedFetch});
+    const start=()=>{if(!unsubscribe)unsubscribe=client.subscribe(cfg.slug,showData,unavailable);};
+    start();
+    window.addEventListener('pagehide',()=>{unsubscribe?.();unsubscribe=null;});
+    window.addEventListener('pageshow',start);
+  }).catch(unavailable);
 })();

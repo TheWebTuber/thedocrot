@@ -1,0 +1,3942 @@
+{
+  "version": 1,
+  "slug": "thedocrot",
+  "label": "Thedocrot",
+  "updatedAt": "2026-11-15T12:00:00.000Z",
+  "source": "YouTube Data API v3 via GitHub Actions",
+  "channel": {
+    "id": "UCiXeV-jUw_yCqScuZGopvVQ",
+    "snippet": {
+      "title": "Thedocrot"
+    },
+    "statistics": {
+      "subscriberCount": "450",
+      "viewCount": "800000",
+      "videoCount": "1600"
+    },
+    "contentDetails": {
+      "relatedPlaylists": {
+        "uploads": "UU_fixture"
+      }
+    },
+    "url": "https://www.youtube.com/channel/UCiXeV-jUw_yCqScuZGopvVQ"
+  },
+  "uploads": [
+    {
+      "id": "fixture0000",
+      "snippet": {
+        "title": "FC27 football career 0",
+        "publishedAt": "2026-11-15T12:00:00.000Z",
+        "liveBroadcastContent": "live",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "100"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0002",
+      "snippet": {
+        "title": "Variety adventure 2",
+        "publishedAt": "2026-11-15T10:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "102"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0003",
+      "snippet": {
+        "title": "FC27 football career 3",
+        "publishedAt": "2026-11-15T09:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "103"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0004",
+      "snippet": {
+        "title": "Dead by Daylight horror 4",
+        "publishedAt": "2026-11-15T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "104"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0005",
+      "snippet": {
+        "title": "Variety adventure 5",
+        "publishedAt": "2026-11-15T07:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "105"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0006",
+      "snippet": {
+        "title": "FC27 football career 6",
+        "publishedAt": "2026-11-15T06:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "106"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0007",
+      "snippet": {
+        "title": "Dead by Daylight horror 7",
+        "publishedAt": "2026-11-15T05:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "107"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0008",
+      "snippet": {
+        "title": "Variety adventure 8",
+        "publishedAt": "2026-11-15T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "108"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0009",
+      "snippet": {
+        "title": "FC27 football career 9",
+        "publishedAt": "2026-11-15T03:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "109"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0010",
+      "snippet": {
+        "title": "Dead by Daylight horror 10",
+        "publishedAt": "2026-11-15T02:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "110"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0011",
+      "snippet": {
+        "title": "Variety adventure 11",
+        "publishedAt": "2026-11-15T01:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "111"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0012",
+      "snippet": {
+        "title": "FC27 football career 12",
+        "publishedAt": "2026-11-15T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "112"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0013",
+      "snippet": {
+        "title": "Dead by Daylight horror 13",
+        "publishedAt": "2026-11-14T23:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "113"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0014",
+      "snippet": {
+        "title": "Variety adventure 14",
+        "publishedAt": "2026-11-14T22:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "114"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0015",
+      "snippet": {
+        "title": "FC27 football career 15",
+        "publishedAt": "2026-11-14T21:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "115"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0016",
+      "snippet": {
+        "title": "Dead by Daylight horror 16",
+        "publishedAt": "2026-11-14T20:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "116"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0017",
+      "snippet": {
+        "title": "Variety adventure 17",
+        "publishedAt": "2026-11-14T19:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "117"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0018",
+      "snippet": {
+        "title": "FC27 football career 18",
+        "publishedAt": "2026-11-14T18:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "118"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0019",
+      "snippet": {
+        "title": "Dead by Daylight horror 19",
+        "publishedAt": "2026-11-14T17:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "119"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0020",
+      "snippet": {
+        "title": "Variety adventure 20",
+        "publishedAt": "2026-11-14T16:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "120"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0021",
+      "snippet": {
+        "title": "FC27 football career 21",
+        "publishedAt": "2026-11-14T15:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "121"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0022",
+      "snippet": {
+        "title": "Dead by Daylight horror 22",
+        "publishedAt": "2026-11-14T14:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "122"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0023",
+      "snippet": {
+        "title": "Variety adventure 23",
+        "publishedAt": "2026-11-14T13:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "123"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0024",
+      "snippet": {
+        "title": "FC27 football career 24",
+        "publishedAt": "2026-11-14T12:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "124"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0025",
+      "snippet": {
+        "title": "Dead by Daylight horror 25",
+        "publishedAt": "2026-11-14T11:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "125"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0026",
+      "snippet": {
+        "title": "Variety adventure 26",
+        "publishedAt": "2026-11-14T10:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "126"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0027",
+      "snippet": {
+        "title": "FC27 football career 27",
+        "publishedAt": "2026-11-14T09:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "127"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0028",
+      "snippet": {
+        "title": "Dead by Daylight horror 28",
+        "publishedAt": "2026-11-14T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "128"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0029",
+      "snippet": {
+        "title": "Variety adventure 29",
+        "publishedAt": "2026-11-14T07:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "129"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0030",
+      "snippet": {
+        "title": "FC27 football career 30",
+        "publishedAt": "2026-11-14T06:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "130"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0031",
+      "snippet": {
+        "title": "Dead by Daylight horror 31",
+        "publishedAt": "2026-11-14T05:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "131"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0032",
+      "snippet": {
+        "title": "Variety adventure 32",
+        "publishedAt": "2026-11-14T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "132"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0033",
+      "snippet": {
+        "title": "FC27 football career 33",
+        "publishedAt": "2026-11-14T03:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "133"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0034",
+      "snippet": {
+        "title": "Dead by Daylight horror 34",
+        "publishedAt": "2026-11-14T02:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "134"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0035",
+      "snippet": {
+        "title": "Variety adventure 35",
+        "publishedAt": "2026-11-14T01:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "135"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0036",
+      "snippet": {
+        "title": "FC27 football career 36",
+        "publishedAt": "2026-11-14T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "136"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0037",
+      "snippet": {
+        "title": "Dead by Daylight horror 37",
+        "publishedAt": "2026-11-13T23:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "137"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0038",
+      "snippet": {
+        "title": "Variety adventure 38",
+        "publishedAt": "2026-11-13T22:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "138"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0039",
+      "snippet": {
+        "title": "FC27 football career 39",
+        "publishedAt": "2026-11-13T21:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "139"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0040",
+      "snippet": {
+        "title": "Dead by Daylight horror 40",
+        "publishedAt": "2026-11-13T20:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "140"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0041",
+      "snippet": {
+        "title": "Variety adventure 41",
+        "publishedAt": "2026-11-13T19:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "141"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0042",
+      "snippet": {
+        "title": "FC27 football career 42",
+        "publishedAt": "2026-11-13T18:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "142"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0043",
+      "snippet": {
+        "title": "Dead by Daylight horror 43",
+        "publishedAt": "2026-11-13T17:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "143"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0044",
+      "snippet": {
+        "title": "Variety adventure 44",
+        "publishedAt": "2026-11-13T16:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "144"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0045",
+      "snippet": {
+        "title": "FC27 football career 45",
+        "publishedAt": "2026-11-13T15:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "145"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0046",
+      "snippet": {
+        "title": "Dead by Daylight horror 46",
+        "publishedAt": "2026-11-13T14:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "146"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0047",
+      "snippet": {
+        "title": "Variety adventure 47",
+        "publishedAt": "2026-11-13T13:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "147"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0048",
+      "snippet": {
+        "title": "FC27 football career 48",
+        "publishedAt": "2026-11-13T12:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "148"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0049",
+      "snippet": {
+        "title": "Dead by Daylight horror 49",
+        "publishedAt": "2026-11-13T11:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "149"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0050",
+      "snippet": {
+        "title": "Variety adventure 50",
+        "publishedAt": "2026-11-13T10:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "150"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0051",
+      "snippet": {
+        "title": "FC27 football career 51",
+        "publishedAt": "2026-11-13T09:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "151"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0052",
+      "snippet": {
+        "title": "Dead by Daylight horror 52",
+        "publishedAt": "2026-11-13T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "152"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0053",
+      "snippet": {
+        "title": "Variety adventure 53",
+        "publishedAt": "2026-11-13T07:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "153"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0054",
+      "snippet": {
+        "title": "FC27 football career 54",
+        "publishedAt": "2026-11-13T06:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "154"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0055",
+      "snippet": {
+        "title": "Dead by Daylight horror 55",
+        "publishedAt": "2026-11-13T05:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "155"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0056",
+      "snippet": {
+        "title": "Variety adventure 56",
+        "publishedAt": "2026-11-13T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "156"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0057",
+      "snippet": {
+        "title": "FC27 football career 57",
+        "publishedAt": "2026-11-13T03:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "157"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0058",
+      "snippet": {
+        "title": "Dead by Daylight horror 58",
+        "publishedAt": "2026-11-13T02:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "158"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0059",
+      "snippet": {
+        "title": "Variety adventure 59",
+        "publishedAt": "2026-11-13T01:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "159"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0060",
+      "snippet": {
+        "title": "FC27 football career 60",
+        "publishedAt": "2026-11-13T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "160"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    }
+  ],
+  "replays": [
+    {
+      "id": "fixture0004",
+      "snippet": {
+        "title": "Dead by Daylight horror 4",
+        "publishedAt": "2026-11-15T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "104"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0008",
+      "snippet": {
+        "title": "Variety adventure 8",
+        "publishedAt": "2026-11-15T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "108"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0012",
+      "snippet": {
+        "title": "FC27 football career 12",
+        "publishedAt": "2026-11-15T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "112"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0016",
+      "snippet": {
+        "title": "Dead by Daylight horror 16",
+        "publishedAt": "2026-11-14T20:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "116"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0020",
+      "snippet": {
+        "title": "Variety adventure 20",
+        "publishedAt": "2026-11-14T16:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "120"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0024",
+      "snippet": {
+        "title": "FC27 football career 24",
+        "publishedAt": "2026-11-14T12:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "124"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    }
+  ],
+  "live": {
+    "id": "fixture0000",
+    "snippet": {
+      "title": "FC27 football career 0",
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "liveBroadcastContent": "live",
+      "thumbnails": {}
+    },
+    "statistics": {
+      "viewCount": "100"
+    },
+    "contentDetails": {
+      "duration": "PT10M"
+    },
+    "status": {
+      "privacyStatus": "public"
+    },
+    "liveStreamingDetails": {
+      "actualStartTime": "2026-11-15T12:00:00.000Z"
+    }
+  },
+  "liveChecked": true,
+  "latestVideos": [
+    {
+      "id": "fixture0000",
+      "title": "FC27 football career 0",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0000/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0000",
+      "views": "100",
+      "live": true,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0002",
+      "title": "Variety adventure 2",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T10:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0002/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0002",
+      "views": "102",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0003",
+      "title": "FC27 football career 3",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T09:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0003/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0003",
+      "views": "103",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0004",
+      "title": "Dead by Daylight horror 4",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T08:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0004/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0004",
+      "views": "104",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0005",
+      "title": "Variety adventure 5",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T07:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0005/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0005",
+      "views": "105",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0006",
+      "title": "FC27 football career 6",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T06:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0006/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0006",
+      "views": "106",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0007",
+      "title": "Dead by Daylight horror 7",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T05:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0007/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0007",
+      "views": "107",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0008",
+      "title": "Variety adventure 8",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T04:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0008/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0008",
+      "views": "108",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0009",
+      "title": "FC27 football career 9",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T03:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0009/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0009",
+      "views": "109",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0010",
+      "title": "Dead by Daylight horror 10",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T02:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0010/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0010",
+      "views": "110",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0011",
+      "title": "Variety adventure 11",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T01:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0011/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0011",
+      "views": "111",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0012",
+      "title": "FC27 football career 12",
+      "label": "YouTube",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0012/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0012",
+      "views": "112",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0013",
+      "title": "Dead by Daylight horror 13",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T23:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0013/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0013",
+      "views": "113",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0014",
+      "title": "Variety adventure 14",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T22:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0014/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0014",
+      "views": "114",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0015",
+      "title": "FC27 football career 15",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T21:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0015/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0015",
+      "views": "115",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0016",
+      "title": "Dead by Daylight horror 16",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0016/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0016",
+      "views": "116",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0017",
+      "title": "Variety adventure 17",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T19:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0017/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0017",
+      "views": "117",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0018",
+      "title": "FC27 football career 18",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T18:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0018/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0018",
+      "views": "118",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0019",
+      "title": "Dead by Daylight horror 19",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T17:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0019/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0019",
+      "views": "119",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0020",
+      "title": "Variety adventure 20",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T16:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0020/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0020",
+      "views": "120",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0021",
+      "title": "FC27 football career 21",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0021/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0021",
+      "views": "121",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0022",
+      "title": "Dead by Daylight horror 22",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T14:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0022/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0022",
+      "views": "122",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0023",
+      "title": "Variety adventure 23",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T13:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0023/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0023",
+      "views": "123",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0024",
+      "title": "FC27 football career 24",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0024/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0024",
+      "views": "124",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0025",
+      "title": "Dead by Daylight horror 25",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T11:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0025/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0025",
+      "views": "125",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0026",
+      "title": "Variety adventure 26",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T10:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0026/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0026",
+      "views": "126",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0027",
+      "title": "FC27 football career 27",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T09:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0027/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0027",
+      "views": "127",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0028",
+      "title": "Dead by Daylight horror 28",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T08:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0028/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0028",
+      "views": "128",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0029",
+      "title": "Variety adventure 29",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T07:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0029/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0029",
+      "views": "129",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0030",
+      "title": "FC27 football career 30",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0030/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0030",
+      "views": "130",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0031",
+      "title": "Dead by Daylight horror 31",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0031/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0031",
+      "views": "131",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0032",
+      "title": "Variety adventure 32",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T04:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0032/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0032",
+      "views": "132",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0033",
+      "title": "FC27 football career 33",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T03:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0033/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0033",
+      "views": "133",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0034",
+      "title": "Dead by Daylight horror 34",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T02:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0034/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0034",
+      "views": "134",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0035",
+      "title": "Variety adventure 35",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T01:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0035/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0035",
+      "views": "135",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0036",
+      "title": "FC27 football career 36",
+      "label": "YouTube",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0036/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0036",
+      "views": "136",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0037",
+      "title": "Dead by Daylight horror 37",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T23:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0037/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0037",
+      "views": "137",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0038",
+      "title": "Variety adventure 38",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T22:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0038/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0038",
+      "views": "138",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0039",
+      "title": "FC27 football career 39",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T21:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0039/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0039",
+      "views": "139",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0040",
+      "title": "Dead by Daylight horror 40",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0040/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0040",
+      "views": "140",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0041",
+      "title": "Variety adventure 41",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T19:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0041/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0041",
+      "views": "141",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0042",
+      "title": "FC27 football career 42",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T18:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0042/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0042",
+      "views": "142",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0043",
+      "title": "Dead by Daylight horror 43",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T17:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0043/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0043",
+      "views": "143",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0044",
+      "title": "Variety adventure 44",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T16:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0044/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0044",
+      "views": "144",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0045",
+      "title": "FC27 football career 45",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0045/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0045",
+      "views": "145",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0046",
+      "title": "Dead by Daylight horror 46",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T14:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0046/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0046",
+      "views": "146",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0047",
+      "title": "Variety adventure 47",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T13:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0047/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0047",
+      "views": "147",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0048",
+      "title": "FC27 football career 48",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0048/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0048",
+      "views": "148",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0049",
+      "title": "Dead by Daylight horror 49",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0049/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0049",
+      "views": "149",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0050",
+      "title": "Variety adventure 50",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T10:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0050/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0050",
+      "views": "150",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0051",
+      "title": "FC27 football career 51",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0051/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0051",
+      "views": "151",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0052",
+      "title": "Dead by Daylight horror 52",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0052/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0052",
+      "views": "152",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0053",
+      "title": "Variety adventure 53",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T07:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0053/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0053",
+      "views": "153",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0054",
+      "title": "FC27 football career 54",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T06:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0054/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0054",
+      "views": "154",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0055",
+      "title": "Dead by Daylight horror 55",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0055/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0055",
+      "views": "155",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0056",
+      "title": "Variety adventure 56",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T04:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0056/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0056",
+      "views": "156",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0057",
+      "title": "FC27 football career 57",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T03:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0057/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0057",
+      "views": "157",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0058",
+      "title": "Dead by Daylight horror 58",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T02:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0058/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0058",
+      "views": "158",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0059",
+      "title": "Variety adventure 59",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T01:00:00.000Z",
+      "startedAt": null,
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0059/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0059",
+      "views": "159",
+      "live": false,
+      "wasLive": false
+    },
+    {
+      "id": "fixture0060",
+      "title": "FC27 football career 60",
+      "label": "YouTube",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0060/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0060",
+      "views": "160",
+      "live": false,
+      "wasLive": true
+    }
+  ],
+  "latestLivestreams": [
+    {
+      "id": "fixture0000",
+      "title": "FC27 football career 0",
+      "label": "Livestream",
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0000/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0000",
+      "views": "100",
+      "live": true,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0004",
+      "title": "Dead by Daylight horror 4",
+      "label": "Livestream",
+      "publishedAt": "2026-11-15T08:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0004/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0004",
+      "views": "104",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0008",
+      "title": "Variety adventure 8",
+      "label": "Livestream",
+      "publishedAt": "2026-11-15T04:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0008/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0008",
+      "views": "108",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0012",
+      "title": "FC27 football career 12",
+      "label": "Livestream",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0012/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0012",
+      "views": "112",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0016",
+      "title": "Dead by Daylight horror 16",
+      "label": "Livestream",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0016/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0016",
+      "views": "116",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0020",
+      "title": "Variety adventure 20",
+      "label": "Livestream",
+      "publishedAt": "2026-11-14T16:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0020/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0020",
+      "views": "120",
+      "live": false,
+      "wasLive": true
+    }
+  ],
+  "latestReplays": [
+    {
+      "id": "fixture0004",
+      "title": "Dead by Daylight horror 4",
+      "label": "Replay",
+      "publishedAt": "2026-11-15T08:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0004/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0004",
+      "views": "104",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0008",
+      "title": "Variety adventure 8",
+      "label": "Replay",
+      "publishedAt": "2026-11-15T04:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0008/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0008",
+      "views": "108",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0012",
+      "title": "FC27 football career 12",
+      "label": "Replay",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0012/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0012",
+      "views": "112",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0016",
+      "title": "Dead by Daylight horror 16",
+      "label": "Replay",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0016/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0016",
+      "views": "116",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0020",
+      "title": "Variety adventure 20",
+      "label": "Replay",
+      "publishedAt": "2026-11-14T16:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0020/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0020",
+      "views": "120",
+      "live": false,
+      "wasLive": true
+    },
+    {
+      "id": "fixture0024",
+      "title": "FC27 football career 24",
+      "label": "Replay",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": "2026-11-15T12:00:00.000Z",
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0024/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0024",
+      "views": "124",
+      "live": false,
+      "wasLive": true
+    }
+  ],
+  "liveStatus": {
+    "status": "live",
+    "video": {
+      "id": "fixture0000",
+      "title": "FC27 football career 0",
+      "label": "Live now",
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "startedAt": "2026-11-15T12:00:00.000Z",
+      "endedAt": null,
+      "scheduledAt": null,
+      "duration": "PT10M",
+      "embeddable": null,
+      "upcoming": false,
+      "thumbnail": "https://i.ytimg.com/vi/fixture0000/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fixture0000",
+      "views": "100",
+      "live": true,
+      "wasLive": true
+    },
+    "checkedAt": "2026-11-15T12:00:00.000Z",
+    "expiresAt": "2026-11-15T12:45:00.000Z",
+    "method": "recent_uploads",
+    "note": "Not detected does not prove offline; observations expire after 45 minutes."
+  },
+  "collabs": [],
+  "collabIssues": [],
+  "scannedUploadCount": 70,
+  "scanNote": "Only recent public uploads are scanned; some past/live broadcasts may not be indexed.",
+  "catalog": [
+    {
+      "id": "fixture0000",
+      "snippet": {
+        "title": "FC27 football career 0",
+        "publishedAt": "2026-11-15T12:00:00.000Z",
+        "liveBroadcastContent": "live",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "100"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0001",
+      "snippet": {
+        "title": "Dead by Daylight horror 1",
+        "publishedAt": "2026-11-15T11:00:00.000Z",
+        "liveBroadcastContent": "upcoming",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "101"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "scheduledStartTime": "2026-11-16T12:00:00Z"
+      }
+    },
+    {
+      "id": "fixture0002",
+      "snippet": {
+        "title": "Variety adventure 2",
+        "publishedAt": "2026-11-15T10:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "102"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0003",
+      "snippet": {
+        "title": "FC27 football career 3",
+        "publishedAt": "2026-11-15T09:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "103"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0004",
+      "snippet": {
+        "title": "Dead by Daylight horror 4",
+        "publishedAt": "2026-11-15T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "104"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0005",
+      "snippet": {
+        "title": "Variety adventure 5",
+        "publishedAt": "2026-11-15T07:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "105"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0006",
+      "snippet": {
+        "title": "FC27 football career 6",
+        "publishedAt": "2026-11-15T06:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "106"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0007",
+      "snippet": {
+        "title": "Dead by Daylight horror 7",
+        "publishedAt": "2026-11-15T05:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "107"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0008",
+      "snippet": {
+        "title": "Variety adventure 8",
+        "publishedAt": "2026-11-15T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "108"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0009",
+      "snippet": {
+        "title": "FC27 football career 9",
+        "publishedAt": "2026-11-15T03:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "109"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0010",
+      "snippet": {
+        "title": "Dead by Daylight horror 10",
+        "publishedAt": "2026-11-15T02:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "110"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0011",
+      "snippet": {
+        "title": "Variety adventure 11",
+        "publishedAt": "2026-11-15T01:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "111"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0012",
+      "snippet": {
+        "title": "FC27 football career 12",
+        "publishedAt": "2026-11-15T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "112"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0013",
+      "snippet": {
+        "title": "Dead by Daylight horror 13",
+        "publishedAt": "2026-11-14T23:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "113"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0014",
+      "snippet": {
+        "title": "Variety adventure 14",
+        "publishedAt": "2026-11-14T22:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "114"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0015",
+      "snippet": {
+        "title": "FC27 football career 15",
+        "publishedAt": "2026-11-14T21:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "115"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0016",
+      "snippet": {
+        "title": "Dead by Daylight horror 16",
+        "publishedAt": "2026-11-14T20:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "116"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0017",
+      "snippet": {
+        "title": "Variety adventure 17",
+        "publishedAt": "2026-11-14T19:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "117"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0018",
+      "snippet": {
+        "title": "FC27 football career 18",
+        "publishedAt": "2026-11-14T18:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "118"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0019",
+      "snippet": {
+        "title": "Dead by Daylight horror 19",
+        "publishedAt": "2026-11-14T17:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "119"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0020",
+      "snippet": {
+        "title": "Variety adventure 20",
+        "publishedAt": "2026-11-14T16:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "120"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0021",
+      "snippet": {
+        "title": "FC27 football career 21",
+        "publishedAt": "2026-11-14T15:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "121"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0022",
+      "snippet": {
+        "title": "Dead by Daylight horror 22",
+        "publishedAt": "2026-11-14T14:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "122"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0023",
+      "snippet": {
+        "title": "Variety adventure 23",
+        "publishedAt": "2026-11-14T13:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "123"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0024",
+      "snippet": {
+        "title": "FC27 football career 24",
+        "publishedAt": "2026-11-14T12:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "124"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0025",
+      "snippet": {
+        "title": "Dead by Daylight horror 25",
+        "publishedAt": "2026-11-14T11:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "125"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0026",
+      "snippet": {
+        "title": "Variety adventure 26",
+        "publishedAt": "2026-11-14T10:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "126"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0027",
+      "snippet": {
+        "title": "FC27 football career 27",
+        "publishedAt": "2026-11-14T09:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "127"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0028",
+      "snippet": {
+        "title": "Dead by Daylight horror 28",
+        "publishedAt": "2026-11-14T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "128"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0029",
+      "snippet": {
+        "title": "Variety adventure 29",
+        "publishedAt": "2026-11-14T07:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "129"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0030",
+      "snippet": {
+        "title": "FC27 football career 30",
+        "publishedAt": "2026-11-14T06:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "130"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0031",
+      "snippet": {
+        "title": "Dead by Daylight horror 31",
+        "publishedAt": "2026-11-14T05:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "131"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0032",
+      "snippet": {
+        "title": "Variety adventure 32",
+        "publishedAt": "2026-11-14T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "132"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0033",
+      "snippet": {
+        "title": "FC27 football career 33",
+        "publishedAt": "2026-11-14T03:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "133"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0034",
+      "snippet": {
+        "title": "Dead by Daylight horror 34",
+        "publishedAt": "2026-11-14T02:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "134"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0035",
+      "snippet": {
+        "title": "Variety adventure 35",
+        "publishedAt": "2026-11-14T01:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "135"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0036",
+      "snippet": {
+        "title": "FC27 football career 36",
+        "publishedAt": "2026-11-14T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "136"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0037",
+      "snippet": {
+        "title": "Dead by Daylight horror 37",
+        "publishedAt": "2026-11-13T23:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "137"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0038",
+      "snippet": {
+        "title": "Variety adventure 38",
+        "publishedAt": "2026-11-13T22:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "138"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0039",
+      "snippet": {
+        "title": "FC27 football career 39",
+        "publishedAt": "2026-11-13T21:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "139"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0040",
+      "snippet": {
+        "title": "Dead by Daylight horror 40",
+        "publishedAt": "2026-11-13T20:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "140"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0041",
+      "snippet": {
+        "title": "Variety adventure 41",
+        "publishedAt": "2026-11-13T19:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "141"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0042",
+      "snippet": {
+        "title": "FC27 football career 42",
+        "publishedAt": "2026-11-13T18:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "142"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0043",
+      "snippet": {
+        "title": "Dead by Daylight horror 43",
+        "publishedAt": "2026-11-13T17:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "143"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0044",
+      "snippet": {
+        "title": "Variety adventure 44",
+        "publishedAt": "2026-11-13T16:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "144"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0045",
+      "snippet": {
+        "title": "FC27 football career 45",
+        "publishedAt": "2026-11-13T15:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "145"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0046",
+      "snippet": {
+        "title": "Dead by Daylight horror 46",
+        "publishedAt": "2026-11-13T14:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "146"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0047",
+      "snippet": {
+        "title": "Variety adventure 47",
+        "publishedAt": "2026-11-13T13:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "147"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0048",
+      "snippet": {
+        "title": "FC27 football career 48",
+        "publishedAt": "2026-11-13T12:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "148"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0049",
+      "snippet": {
+        "title": "Dead by Daylight horror 49",
+        "publishedAt": "2026-11-13T11:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "149"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0050",
+      "snippet": {
+        "title": "Variety adventure 50",
+        "publishedAt": "2026-11-13T10:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "150"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0051",
+      "snippet": {
+        "title": "FC27 football career 51",
+        "publishedAt": "2026-11-13T09:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "151"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0052",
+      "snippet": {
+        "title": "Dead by Daylight horror 52",
+        "publishedAt": "2026-11-13T08:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "152"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0053",
+      "snippet": {
+        "title": "Variety adventure 53",
+        "publishedAt": "2026-11-13T07:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "153"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0054",
+      "snippet": {
+        "title": "FC27 football career 54",
+        "publishedAt": "2026-11-13T06:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "154"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0055",
+      "snippet": {
+        "title": "Dead by Daylight horror 55",
+        "publishedAt": "2026-11-13T05:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "155"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0056",
+      "snippet": {
+        "title": "Variety adventure 56",
+        "publishedAt": "2026-11-13T04:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "156"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0057",
+      "snippet": {
+        "title": "FC27 football career 57",
+        "publishedAt": "2026-11-13T03:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "157"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0058",
+      "snippet": {
+        "title": "Dead by Daylight horror 58",
+        "publishedAt": "2026-11-13T02:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "158"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0059",
+      "snippet": {
+        "title": "Variety adventure 59",
+        "publishedAt": "2026-11-13T01:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "159"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0060",
+      "snippet": {
+        "title": "FC27 football career 60",
+        "publishedAt": "2026-11-13T00:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "160"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0061",
+      "snippet": {
+        "title": "Dead by Daylight horror 61",
+        "publishedAt": "2026-11-12T23:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "161"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0062",
+      "snippet": {
+        "title": "Variety adventure 62",
+        "publishedAt": "2026-11-12T22:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "162"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0063",
+      "snippet": {
+        "title": "FC27 football career 63",
+        "publishedAt": "2026-11-12T21:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "163"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0064",
+      "snippet": {
+        "title": "Dead by Daylight horror 64",
+        "publishedAt": "2026-11-12T20:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "164"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0065",
+      "snippet": {
+        "title": "Variety adventure 65",
+        "publishedAt": "2026-11-12T19:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "165"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0066",
+      "snippet": {
+        "title": "FC27 football career 66",
+        "publishedAt": "2026-11-12T18:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "166"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0067",
+      "snippet": {
+        "title": "Dead by Daylight horror 67",
+        "publishedAt": "2026-11-12T17:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "167"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "id": "fixture0068",
+      "snippet": {
+        "title": "Variety adventure 68",
+        "publishedAt": "2026-11-12T16:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "168"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-15T12:00:00.000Z",
+        "actualEndTime": "2026-11-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "fixture0069",
+      "snippet": {
+        "title": "FC27 football career 69",
+        "publishedAt": "2026-11-12T15:00:00.000Z",
+        "liveBroadcastContent": "none",
+        "thumbnails": {}
+      },
+      "statistics": {
+        "viewCount": "169"
+      },
+      "contentDetails": {
+        "duration": "PT10M"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ],
+  "playlists": [],
+  "collabSources": {},
+  "legacyCollabs": [],
+  "sections": {
+    "channel": {
+      "status": "fresh",
+      "updatedAt": "2026-11-15T12:00:00.000Z"
+    },
+    "videos": {
+      "status": "fresh",
+      "updatedAt": "2026-11-15T12:00:00.000Z"
+    },
+    "collabs": {
+      "status": "fresh",
+      "updatedAt": "2026-11-15T12:00:00.000Z"
+    }
+  },
+  "issues": [],
+  "freshness": {
+    "liveFresh": true,
+    "observedAt": "2026-11-15T12:00:00.000Z",
+    "evaluatedAt": "2026-11-15T12:00:00.000Z"
+  }
+}
